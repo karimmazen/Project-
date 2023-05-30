@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:grad_project/pages/addexercise.dart';
 import 'package:grad_project/pages/home.dart';
 import 'package:grad_project/pages/signup.dart';
 import 'package:grad_project/pages/welcome.dart';
@@ -25,7 +26,8 @@ class MyApp extends StatelessWidget {
       routes: {
          '/':(context) => const Welcome(),
          '/signup':(context) => const Signup(),
-         '/login':(context) => const Homepage()
+         '/login':(context) => const Homepage(),
+         '/addexercise':(context) => const AddExercise()
       },
     );
   }

@@ -19,7 +19,7 @@ class Signup extends StatelessWidget {
             Container(
               padding: EdgeInsets.symmetric(horizontal: 5, vertical: 1),
               decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(66),
+                borderRadius: BorderRadius.circular(0),
                 color: Colors.green,
               ),
               width: 350,
@@ -37,7 +37,7 @@ class Signup extends StatelessWidget {
             Container(
               padding: EdgeInsets.symmetric(horizontal: 5, vertical: 0),
               decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(66),
+                borderRadius: BorderRadius.circular(0),
                 color: Colors.green,
               ),
               width: 350,
@@ -56,7 +56,7 @@ class Signup extends StatelessWidget {
             Container(
               padding: EdgeInsets.symmetric(horizontal: 5, vertical: 0),
               decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(66),
+                borderRadius: BorderRadius.circular(0),
                 color: Colors.green,
               ),
               width: 350,

@@ -8,8 +8,6 @@ class Welcome extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
-     
       backgroundColor: Colors.grey[850],
       body: SizedBox(
         width: double.infinity,
@@ -19,7 +17,7 @@ class Welcome extends StatelessWidget {
             Container(
               padding: EdgeInsets.symmetric(horizontal: 5, vertical: 1),
               decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(66),
+                borderRadius: BorderRadius.circular(0),
                 color: Colors.green,
               ),
               width: 350,
@@ -37,7 +35,7 @@ class Welcome extends StatelessWidget {
             Container(
               padding: EdgeInsets.symmetric(horizontal: 5, vertical: 0),
               decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(66),
+                borderRadius: BorderRadius.circular(0),
                 color: Colors.green,
               ),
               width: 350,
@@ -70,13 +68,15 @@ class Welcome extends StatelessWidget {
                     style: TextStyle(fontSize: 25, color: Colors.white),
                   ),
                 ),
-                Container(margin: EdgeInsets.symmetric(horizontal: 15 ),
+                Container(
+                  margin: EdgeInsets.symmetric(horizontal: 15),
                   child: ElevatedButton(
                     onPressed: () {
                       Navigator.pushNamed(context, '/signup');
                     },
                     style: ButtonStyle(
-                      backgroundColor: MaterialStateProperty.all(Colors.green),
+                      backgroundColor:
+                          MaterialStateProperty.all(Colors.grey[700]),
                       padding: MaterialStateProperty.all(
                           EdgeInsets.symmetric(horizontal: 100, vertical: 15)),
                     ),
