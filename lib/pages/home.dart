@@ -15,7 +15,6 @@ class Homepage extends StatelessWidget {
           Expanded(
             flex: 1,
             child: Container(),
-            
           ),
           SizedBox(
             width: 7,
@@ -120,9 +119,7 @@ class Homepage extends StatelessWidget {
                     child: Row(
                       children: [
                         TextButton(
-                          onPressed: () {
-                            Navigator.pushNamed(context, '/');
-                          },
+                          onPressed: () {},
                           style: ButtonStyle(
                             foregroundColor:
                                 MaterialStateProperty.resolveWith<Color>(
